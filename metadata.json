@@ -1,0 +1,5 @@
+{
+  "name": "Key Master Dashboard",
+  "description": "A web-based dashboard to manage users, API keys, platforms, and bot directories, replacing a previous Telegram bot system. Data is stored and managed via Firebase Realtime Database.",
+  "requestFramePermissions": []
+}

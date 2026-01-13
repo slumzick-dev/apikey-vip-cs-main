@@ -1,0 +1,20 @@
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/:platform/credit"
+  to = "/.netlify/functions/credit/:platform"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/:platform/use"
+  to = "/.netlify/functions/use/:platform"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/agents"
+  to = "/.netlify/functions/create-agent"
+  status = 200
+  force = true
